@@ -55,10 +55,10 @@ All with a **minimal footprint**, leveraging **Flask as a secure API proxy**, an
 
 ## Key Features
 
-- 🔌 **Embed Anywhere**: Add `<iframe>` widgets to any static or CMS-based page.
-- 🧠 **Domain-Focused AI**: Each assistant is context-tuned (e.g., restaurant, construction).
-- 🚀 **Agent-Ready Design**: Expandable routing pattern to add booking, FAQ, order agents.
-- 📬 **Low-Code Friendly**: No full-stack dev required to update content, add tools, or adapt.
+- **Embed Anywhere**: Add `<iframe>` widgets to any static or CMS-based page.
+- **Domain-Focused AI**: Each assistant is context-tuned (e.g., restaurant, construction).
+- **Agent-Ready Design**: Expandable routing pattern to add booking, FAQ, order agents.
+- **Low-Code Friendly**: No full-stack dev required to update content, add tools, or adapt.
 
 ---
 
