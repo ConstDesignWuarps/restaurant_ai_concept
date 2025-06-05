@@ -9,6 +9,7 @@ A lightweight, open-architecture chatbot framework to power interactive restaura
 To empower restaurants to:
 - Easily embed a smart assistant on their static sites (e.g., GitHub Pages)
 - Handle FAQs, menus, and customer interactions with minimal setup
+- Use Google form and data engines like collab to drive analytics alers and jobs
 - Later expand into bookings, orders, events, and AI-powered data processing
 
 All with a **minimal footprint**, leveraging **Flask as a secure API proxy**, and **OpenAI's LLMs** as the assistant engine.
@@ -16,11 +17,12 @@ All with a **minimal footprint**, leveraging **Flask as a secure API proxy**, an
 ---
 
 ## Architecture Overview
-
       +---------------------------+
       |   GitHub Pages (Frontend)|
       |  - Static HTML/JS        |
       |  - Embedded Chat Assistant|
+      |  - Google Forms (Orders,  |
+      |    Feedback, RSVP, etc.)  |
       +-----------+---------------+
                   |
                   ▼
@@ -36,6 +38,15 @@ All with a **minimal footprint**, leveraging **Flask as a secure API proxy**, an
       |    OpenAI GPT API         |
       |  - Restaurant-focused     |
       |  - Expandable with tools  |
+      +-----------+---------------+
+                  |
+                  ▼
+      +---------------------------+
+      | Google Sheets / Colab /   |
+      | NotebookML (Data Engine)  |
+      | - Captures form responses |
+      | - Runs analytics, alerts  |
+      | - Prepares order data     |
       +---------------------------+
 
 
